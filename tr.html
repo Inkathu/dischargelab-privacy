@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discharge Lab — Gizlilik Politikası</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="langbar">Dil: <a href="./">English</a> <a href="ru.html">Русский</a> <a href="de.html">Deutsch</a> <a href="es.html">Español</a> <a href="fr.html">Français</a> <a href="pt-BR.html">Português (Brasil)</a> <a href="it.html">Italiano</a> <span class="current">Türkçe</span> <a href="pl.html">Polski</a> <a href="uk.html">Українська</a> <a href="ar.html">العربية</a> <a href="hi.html">हिन्दी</a> <a href="id.html">Bahasa Indonesia</a> <a href="ja.html">日本語</a> <a href="ko.html">한국어</a></nav>
+
+<h1>Gizlilik Politikası — Discharge Lab</h1>
+<p class="subtitle">Son güncelleme: 2026-09-15</p>
+
+<p>Discharge Lab, pili kontrollü biçimde boşaltmaya ve şarj cihazlarını test etmeye yarayan bir Android aracıdır. Bu sayfa, uygulamanın verilerinizle ne yapıp ne yapmadığını sade bir dille anlatır. Anlatacak çok şey yok, çünkü uygulama en baştan verilerinize ihtiyaç duymayacak şekilde tasarlandı.</p>
+
+<h2>Kısa özet</h2>
+<p>Discharge Lab hiçbir kişisel veriyi toplamaz, saklamaz veya iletmez. Uygulamanın internet erişimi hiç yoktur — bir ağa bağlanma imkânı olmadığı için hiçbir şeyi hiçbir yere gönderemez.</p>
+
+<h2>Uygulama cihazınızdan neyi okur</h2>
+<p>Uygulama açık olduğu sürece, Android'in zaten her uygulamaya sunduğu pil telemetrisini okur: şarj seviyesi, sıcaklık, gerilim, akım ve şarj durumu; bunlara ek olarak sistemin ısıl durumunu ve işlemci çekirdeklerinin frekanslarını da okur. Bu değerler yalnızca iki şey için kullanılır: bunları ekranda grafik ve tablo olarak göstermek ve oturumun ne zaman duraklatılacağına ya da durdurulacağına karar vermek (örneğin sıcaklık sınırına ulaşıldığında).</p>
+
+<h2>Bu veriler nereye gider</h2>
+<p>Ekranınızdan başka hiçbir yere ve cihazınızın dışına hiçbir yere. Bu telemetri yalnızca uygulama çalışırken uygulamanın belleğinde bulunur. Hiçbir sunucuya yazılmaz, çünkü uygulamanın bir sunucuya ulaşacak ağ erişimi yoktur. Üçüncü taraflarla paylaşılmaz, çünkü uygulamada paylaşım mekanizması yoktur. Uygulamayı kapattığınızda bellekteki bu geçmiş kaybolur — daha önce kendiniz dışa aktarmadıysanız.</p>
+
+<h2>CSV dışa aktarma</h2>
+<p>Discharge Lab bir oturumun telemetri geçmişini, sütunları ve birimleri açıklayan kısa bir metin dosyasıyla birlikte CSV dosyası olarak kaydedebilir. Bu yalnızca dışa aktarma işlemine kendiniz dokunduğunuzda olur — asla otomatik olarak, asla arka planda değil. O anda Android'in kendi klasör seçicisi açılır ve klasörü siz seçersiniz; uygulama bu iki dosyayı yalnızca oraya yazar, başka hiçbir yere değil. O andan itibaren bunlar cihazınızdaki sıradan dosyalardır ve kaydettiğiniz diğer belgeler gibi sizin kontrolünüzdedir.</p>
+
+<h2>İzinler</h2>
+<p>Discharge Lab'in istediği tek izin titreşimdir ve yalnızca tamamen kapalı bırakabileceğiniz isteğe bağlı titreşim yükü modu için kullanılır. Uygulama internet, kamera, konum, kişiler, mikrofon veya geniş depolama erişimi istemez ve kullanmaz.</p>
+
+<h2>Çocuklar</h2>
+<p>Discharge Lab, yukarıdaki nedenlerle hiç kimseden, hangi yaşta olursa olsun, bilerek veri toplamaz — zaten bir toplama mekanizması yoktur.</p>
+
+<h2>Bu politikadaki değişiklikler</h2>
+<p>Bu politika değişirse, güncellenmiş sürüm aynı adreste, yukarıda yeni bir güncelleme tarihiyle yayımlanacaktır.</p>
+
+<h2>İletişim</h2>
+<div class="contact-box">
+  <p>
+    Bu politikayla veya uygulamayla ilgili sorular şu adrese gönderilebilir:
+    <br>
+    <a href="mailto:aivikdeveloper@gmail.com">aivikdeveloper@gmail.com</a>
+  </p>
+</div>
+
+<footer>Discharge Lab — yerel, çevrimdışı çalışan bir pil tanılama aracı. Bu belge; betik, izleyici ve dış istek içermeyen statik bir sayfadır, çevrimdışıyken de okunabilir.</footer>
+
+</body>
+</html>

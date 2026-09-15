@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discharge Lab — Política de privacidad</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="langbar">Idioma: <a href="./">English</a> <a href="ru.html">Русский</a> <a href="de.html">Deutsch</a> <span class="current">Español</span> <a href="fr.html">Français</a> <a href="pt-BR.html">Português (Brasil)</a> <a href="it.html">Italiano</a> <a href="tr.html">Türkçe</a> <a href="pl.html">Polski</a> <a href="uk.html">Українська</a> <a href="ar.html">العربية</a> <a href="hi.html">हिन्दी</a> <a href="id.html">Bahasa Indonesia</a> <a href="ja.html">日本語</a> <a href="ko.html">한국어</a></nav>
+
+<h1>Política de privacidad — Discharge Lab</h1>
+<p class="subtitle">Última actualización: 2026-09-15</p>
+
+<p>Discharge Lab es una herramienta de Android para descargar la batería de forma controlada y probar cargadores. Esta página explica, en términos sencillos, qué hace y qué no hace la aplicación con sus datos. No hay mucho que explicar, porque la aplicación se diseñó desde el principio para no necesitar sus datos.</p>
+
+<h2>La versión corta</h2>
+<p>Discharge Lab no recopila, almacena ni transmite ningún dato personal. La aplicación no tiene acceso a internet en absoluto: no puede enviar nada a ninguna parte, porque no tiene forma de conectarse a una red.</p>
+
+<h2>Qué lee la aplicación de su dispositivo</h2>
+<p>Mientras la aplicación está abierta, lee la telemetría de la batería que Android ya expone a cualquier aplicación: nivel de carga, temperatura, voltaje, corriente y estado de carga, además del estado térmico del sistema y las frecuencias de los núcleos de la CPU. Estos valores se usan solo para dos cosas: mostrarlos en pantalla como gráficos y una tabla y decidir cuándo pausar o detener la sesión (por ejemplo, al alcanzar el límite de temperatura).</p>
+
+<h2>Adónde van esos datos</h2>
+<p>A ninguna parte salvo su pantalla, y a ninguna parte fuera de su dispositivo. Esta telemetría existe solo en la memoria de la aplicación mientras está en ejecución. No se escribe en ningún servidor, porque la aplicación no tiene acceso a la red para alcanzarlo. No se comparte con terceros, porque en la aplicación no existe ningún mecanismo para compartirla. Al cerrar la aplicación, ese historial en memoria desaparece, salvo que usted lo haya exportado antes.</p>
+
+<h2>La exportación a CSV</h2>
+<p>Discharge Lab puede guardar el historial de telemetría de una sesión en un archivo CSV, junto con un breve archivo de texto que explica sus columnas y unidades. Esto ocurre solo cuando usted pulsa la acción de exportar: nunca de forma automática, nunca en segundo plano. En ese momento se abre el selector de carpetas del propio Android y usted elige la carpeta; la aplicación escribe esos dos archivos allí y en ningún otro lugar. A partir de ahí, son archivos normales en su dispositivo, bajo su control como cualquier otro documento que guarde.</p>
+
+<h2>Permisos</h2>
+<p>El único permiso que solicita Discharge Lab es el de vibración, usado exclusivamente para un modo opcional de carga mediante el motor de vibración que puede dejar desactivado por completo. La aplicación no solicita ni utiliza internet, cámara, ubicación, contactos, micrófono ni acceso amplio al almacenamiento.</p>
+
+<h2>Menores</h2>
+<p>Discharge Lab no recopila conscientemente datos de nadie, sea cual sea su edad, por las razones anteriores: sencillamente no existe mecanismo de recopilación.</p>
+
+<h2>Cambios en esta política</h2>
+<p>Si esta política llegara a cambiar, la versión actualizada se publicará en esta misma dirección con una nueva fecha de actualización arriba.</p>
+
+<h2>Contacto</h2>
+<div class="contact-box">
+  <p>
+    Las preguntas sobre esta política o sobre la aplicación pueden enviarse a:
+    <br>
+    <a href="mailto:aivikdeveloper@gmail.com">aivikdeveloper@gmail.com</a>
+  </p>
+</div>
+
+<footer>Discharge Lab: una herramienta local y sin conexión para diagnosticar la batería. Este documento es una página estática sin scripts, sin rastreadores y sin peticiones externas; puede leerse sin conexión.</footer>
+
+</body>
+</html>
