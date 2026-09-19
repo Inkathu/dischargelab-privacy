@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Discharge Lab — Política de privacidad</title>
+<title>Discharge Lab - Política de privacidad</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <nav class="langbar">Idioma: <a href="./">English</a> <a href="ru.html">Русский</a> <a href="de.html">Deutsch</a> <span class="current">Español</span> <a href="fr.html">Français</a> <a href="pt-BR.html">Português (Brasil)</a> <a href="it.html">Italiano</a> <a href="tr.html">Türkçe</a> <a href="pl.html">Polski</a> <a href="uk.html">Українська</a> <a href="ar.html">العربية</a> <a href="hi.html">हिन्दी</a> <a href="id.html">Bahasa Indonesia</a> <a href="ja.html">日本語</a> <a href="ko.html">한국어</a> <a href="ga.html">Gaeilge</a> <a href="ur.html">اردو</a> <a href="hu.html">Magyar</a></nav>
 
-<h1>Política de privacidad — Discharge Lab</h1>
+<h1>Política de privacidad - Discharge Lab</h1>
 <p class="subtitle">Última actualización: 2026-09-15</p>
 
 <p>Discharge Lab es una herramienta de Android para descargar la batería de forma controlada. Esta página explica, en términos sencillos, qué hace y qué no hace la aplicación con sus datos. No hay mucho que explicar, porque la aplicación se diseñó desde el principio para no necesitar sus datos.</p>
@@ -22,10 +22,10 @@
 <p>Mientras la aplicación está abierta, lee la telemetría de la batería que Android ya expone a cualquier aplicación: nivel de carga, temperatura, voltaje, corriente y estado de carga, además del estado térmico del sistema y las frecuencias de los núcleos de la CPU. Estos valores se usan solo para dos cosas: mostrarlos en pantalla como gráficos y una tabla y decidir cuándo pausar o detener la sesión (por ejemplo, al alcanzar el límite de temperatura).</p>
 
 <h2>Adónde van esos datos</h2>
-<p>A ninguna parte salvo su pantalla, y a ninguna parte fuera de su dispositivo. Esta telemetría existe solo en la memoria de la aplicación mientras está en ejecución. No se escribe en ningún servidor, porque la aplicación no tiene acceso a la red para alcanzarlo. No se comparte con terceros, porque en la aplicación no existe ningún mecanismo para compartirla. Al cerrar la aplicación, ese historial en memoria desaparece, salvo que usted lo haya exportado antes.</p>
+<p>A ninguna parte salvo su pantalla, y a ninguna parte fuera de su dispositivo. Esta telemetría existe solo en la memoria de la aplicación mientras está en ejecución. No se escribe en ningún servidor, porque la aplicación no tiene acceso a la red para alcanzarlo. La aplicación no la envía a nadie por su cuenta. Nada sale del teléfono mientras usted no lo exporte o lo comparta. Al cerrar la aplicación, ese historial en memoria desaparece, salvo que usted lo haya exportado antes.</p>
 
 <h2>La exportación a CSV</h2>
-<p>Discharge Lab puede guardar el historial de telemetría de una sesión en un archivo CSV, junto con un breve archivo de texto que explica sus columnas y unidades. Esto ocurre solo cuando usted pulsa la acción de exportar: nunca de forma automática, nunca en segundo plano. En ese momento se abre el selector de carpetas del propio Android y usted elige la carpeta; la aplicación escribe esos dos archivos allí y en ningún otro lugar. A partir de ahí, son archivos normales en su dispositivo, bajo su control como cualquier otro documento que guarde.</p>
+<p>Discharge Lab puede guardar el historial de telemetría de una sesión en un archivo CSV, junto con un breve archivo de texto que explica sus columnas y unidades. Esto ocurre solo cuando usted pulsa la acción de exportar: nunca de forma automática, nunca en segundo plano. En ese momento se abre el selector de carpetas del propio Android y usted elige la carpeta; la aplicación escribe esos dos archivos allí y en ningún otro lugar. A partir de ahí, son archivos normales en su dispositivo, bajo su control como cualquier otro documento que guarde. La pantalla «Acerca de» esconde además un informe de diagnóstico, tras diez toques en el número de versión. Incluye el modelo del teléfono, la versión de Android y las lecturas actuales de batería y sensores, y abre la ventana de compartir de Android para que pueda enviarlo si algo falla. No contiene datos personales y nunca se envía por su cuenta.</p>
 
 <h2>Permisos</h2>
 <p>El único permiso que solicita Discharge Lab es el de vibración, usado exclusivamente para un modo opcional de carga mediante el motor de vibración que puede dejar desactivado por completo. La aplicación no solicita ni utiliza internet, cámara, ubicación, contactos, micrófono ni acceso amplio al almacenamiento.</p>
